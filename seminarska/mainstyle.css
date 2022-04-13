@@ -1,0 +1,49 @@
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+    font-family: Menlo, monospace;
+}
+
+.toolbar{
+    width: 100%;
+    background-color: rgb(42, 197, 197);
+    overflow: auto;
+}
+
+.toolbar a{
+    float: left;
+    width: 11.3%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+}
+
+.toolbar a:hover{
+    background-color: white;
+}
+
+.selected{
+    background-color: white;
+}
+
+#my-canvas{
+    width: 100%;
+    border: 3px solid #000;
+}
+
+#img-data-div{
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+}
+
+.toolbar a img{
+    max-width: 100%;
+    height: auto;
+}
+
+.color{
+    width: 100%;
+    background-color: rgb(107, 107, 107);
+    overflow: auto;
+}
